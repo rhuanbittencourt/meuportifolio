@@ -122,7 +122,7 @@
 
         /* ========== HERO SECTION ========== */
         .hero {
-            background-image: url(arquivos/imagens/Bg-hero.png);
+            background-image: url(../../arquivos/imagens/Bg-hero-modificada.png);
             background-position: center;
             background-size: cover;
             min-height: 100vh;
