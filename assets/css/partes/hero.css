@@ -1,0 +1,275 @@
+.hero {
+    width: 100%;
+    height: 100dvh;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 100px 0 0 0;
+
+    .logo {
+        width: 200px;
+        margin: 0 0 10px 0;
+    }
+}
+
+.hero-text {
+    /* 1. Transparência: Cor de fundo branca (ou outra) com baixa opacidade */
+    background-color: rgba(146, 145, 145, 0.085);
+    backdrop-filter: blur(10px);
+    /* 3. Compatibilidade: Necessário para o Safari */
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px var(--primary-blue);
+    border: 1px solid var(--primary-blue);
+    border-radius: 15px;
+    padding: 40px;
+    width: 100%;
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 3.8rem;
+    color: var(--text-light);
+
+    span {
+        color: var(--primary-blue);
+    }
+}
+
+.hero-text p {
+    font-size: 1.6rem;
+    opacity: .8;
+    padding: 20px 0;
+}
+
+.hero-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(to right, #0D47A1, #00BFFF);
+    padding: 20px 40px;
+    outline: none;
+    border-radius: 50px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    background: transparent;
+    color: var(--text-light);
+    border: 2px solid #00BFFF;
+    transition: 0.3s;
+    box-shadow: 0 0 10px #00BFFF, 0 0 10px #00BFFF inset;
+
+
+
+    .circulo-botao {
+
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+
+.hero-button:hover {
+    color: var(--bg-darker);
+    background: #00BFFF;
+    box-shadow:
+        0 0 10px #00BFFF,
+        0 0 20px #00BFFF,
+        0 0 40px #00BFFF,
+        0 0 10px #00BFFF;
+    transition: 0.3s ease-in-out;
+}
+
+.hero-area {
+    display: flex;
+    position: relative;
+}
+
+.hero .imagam-fundo {
+    width: 60%;
+    height: 150dvh;
+    position: absolute;
+    right: -200px;
+    top: -150px;
+}
+
+.hero-visual img {
+    width: 400px;
+    margin: 0 0 0 100px;
+    position: absolute;
+    z-index: 98;
+    filter: saturate(99%);
+}
+
+.divisoria {
+    width: 110%;
+    height: 400px;
+    position: absolute;
+    bottom: -200px;
+    left: -100px;
+    z-index: 99;
+}
+
+
+
+
+
+
+
+
+@media (min-width:1025px) and (max-width:1300px) {
+    .hero {
+        padding: 0 50px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+  .hero {
+    width: 100%;
+    height: 100dvh;
+    overflow: hidden;
+    position: relative;
+    margin: 0 0 100px 0;
+    padding: 0 80px;
+
+}
+
+.container {
+    max-width: 700px;
+    justify-content: center;
+    display: flex;
+}
+
+.hero-area {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.hero-content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 100px 0 0 0;
+    margin: 100px 0 0 0;
+    .logo {
+        width: 200px;
+        margin: 0 0 10px 0;
+    }
+}
+
+.hero-text {
+    /* 1. Transparência: Cor de fundo branca (ou outra) com baixa opacidade */
+    background-color: rgba(0, 0, 0, 0.608);
+    backdrop-filter: blur(10px);
+    /* 3. Compatibilidade: Necessário para o Safari */
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px var(--primary-blue);
+    border: 1px solid var(--primary-blue);
+    border-radius: 15px;
+    padding: 40px 50px;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.hero-text h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 3.8rem;
+    color: var(--text-light);
+
+    span {
+        color: var(--primary-blue);
+    }
+}
+
+.hero-text p {
+    font-size: 1.6rem;
+    opacity: .8;
+    padding: 20px 0;
+}
+
+.hero-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(to right, #0D47A1, #00BFFF);
+    padding: 20px 40px;
+    outline: none;
+    border-radius: 50px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    background: transparent;
+    color: var(--text-light);
+    border: 2px solid #00BFFF;
+    transition: 0.3s;
+    box-shadow: 0 0 10px #00BFFF, 0 0 10px #00BFFF inset;
+
+
+
+    .circulo-botao {
+
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+
+.hero-button:hover {
+    color: var(--bg-darker);
+    background: #00BFFF;
+    box-shadow:
+        0 0 10px #00BFFF,
+        0 0 20px #00BFFF,
+        0 0 40px #00BFFF,
+        0 0 10px #00BFFF;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+.hero .imagam-fundo {
+    width: 100%;
+    height: 150dvh;
+    position: absolute;
+    right: -400px;
+    top: -150px;
+}
+
+.hero-visual img {
+    width: 450px;
+    height: auto;
+    margin: -650px 0 0px 200px;
+    position: absolute;
+    z-index: 95;
+    filter: saturate(99%);
+}
+
+.divisoria {
+    width: 110%;
+    height: 400px;
+    position: absolute;
+    bottom: -200px;
+    left: 0px;
+    z-index: 98;
+}
+
+}
