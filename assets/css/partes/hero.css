@@ -5,6 +5,20 @@
     position: relative;
 }
 
+.circulo-desfocado {
+    width: 500px;
+    height: 500px;
+    background-color: var(--primary-blue);
+    border-radius: 50%;
+    filter: blur(190px); 
+    position: absolute;
+    bottom:-400px;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    
+}
+
 .hero-content {
     display: flex;
     width: 100%;
@@ -265,11 +279,11 @@
 }
 
 .divisoria {
-    width: 110%;
+    width: 410%;
     height: 400px;
     position: absolute;
     bottom: -200px;
-    left: 0px;
+    left: -200px;
     z-index: 98;
 }
 
@@ -291,7 +305,19 @@
     padding: 0 0;
 
 }
-
+.circulo-desfocado {
+    width: 100px;
+    height: 100px;
+    background-color: var(--primary-blue);
+    border-radius: 50%;
+    filter: blur(190px); 
+    position: absolute;
+    bottom:-400px;
+    left: -200px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    
+}
 .container {
     max-width: 0;
     justify-content: center;
@@ -342,7 +368,7 @@
 .hero-text h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
-    font-size: 2.3rem;
+    font-size: 2.4rem;
     line-height: 2.5rem;
     color: var(--text-light);
 
@@ -404,7 +430,7 @@
     width: 300%;
     height: 150dvh;
     position: absolute;
-    right: -50px;
+    right: -520px;
     top: -160px;
 
 }
@@ -419,11 +445,11 @@
 }
 
 .divisoria {
-    width: 110%;
+    width: 200%;
     height: 400px;
     position: absolute;
     bottom: -200px;
-    left: 0px;
+    left: -100px;
     z-index: 98;
 }
 
