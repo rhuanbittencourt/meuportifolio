@@ -381,7 +381,7 @@
     font-size: 1.2rem;
     line-height: 2rem;
     opacity: .8;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .hero-button {
@@ -430,7 +430,7 @@
     width: 300%;
     height: 150dvh;
     position: absolute;
-    right: -520px;
+    right: -320px;
     top: -160px;
 
 }
@@ -442,6 +442,7 @@
     position: absolute;
     z-index: 95;
     filter: saturate(99%);
+    display: none;
 }
 
 .divisoria {
