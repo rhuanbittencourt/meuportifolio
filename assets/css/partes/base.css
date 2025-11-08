@@ -41,6 +41,7 @@ body {
     color: var(--text-light);
     line-height: 1.6;
     overflow-x: hidden;
+    border-top: 2px solid var(--primary-blue);
 }
 
 .container {
